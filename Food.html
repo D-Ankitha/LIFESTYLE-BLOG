@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="note.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -46,11 +47,11 @@
             </ul>
         </div>
     </nav>
-    <div class="container mt-5">
+    <div class="container"style = "margin-top:700px;">
         <div class="row">
             <div class="col-12">
                 <h1 class = "Unique mt-3">
-                    Work
+                    Food
                 </h1>
                 <p class="Clothing">
                     Any material that an organism consumes for nutritional support is considered food. Food is typically derived from plants, animals, or fungi and includes vital nutrients such proteins, lipids, carbs, and vitamins and minerals. An organism consumes the material, which is then absorbed by the organism's cells to supply energy, sustain life, or promote growth. Different animal species have developed distinct eating habits to meet the demands of their metabolisms and to occupy particular ecological niches in particular geographic settings.
@@ -75,7 +76,15 @@
                  </p>           
             </div>
         </div>
+        <div class="col-12 comment-box">
+            <h2>Leave a Comment</h2>
+            <textarea id="comment-input" placeholder="Write your comment here..."></textarea>
+            <button id="submit-comment">Submit</button>
+            <div id="comments-section"></div>
+        </div>
     </div>
+</div>
+<script src="scripts.js"></script>
 </body>
 
 </html>
